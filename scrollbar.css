@@ -1,0 +1,23 @@
+/*------------------------
+@purpose:: Dark grey scrollbar, light grey background, 10px wide
+
+-------------------------*/
+
+
+div::-webkit-scrollbar {
+    /* Create a Scrollbar object */
+
+    width: 7px;
+}
+
+div::-webkit-scrollbar-track {
+    /* Set the color of the background */
+    
+    background-color: #8BC34A3 !important; 	
+}
+
+div::-webkit-scrollbar-thumb {
+    /* Set the color of the button bar itself */
+    background-color: #8BC34A9 !important;
+    outline: 1px solid #8BC34A00; 
+}

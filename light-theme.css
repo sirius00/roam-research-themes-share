@@ -1,0 +1,80 @@
+/* MAIN CSS - Required */
+
+@import url('https://gitmurf.github.io/masonry-vanilla/masonry-main.css');
+
+/* OPTIONAL 1 - Some additional options on top of Vanilla that Murf uses */
+@import url('https://gitmurf.github.io/masonry-vanilla/masonry-optional-1.css');
+
+:root{
+  	--color-accent-1: #2D4155;
+  	--color-accent-2: #B78343;
+  	--color-dark-1: #252422;
+  	--color-dark-op: #EFEDE4;
+  	--color-gray: #847D70;
+    --color-sidebars: #ECECEC;
+    --main-left-bg: white;
+    --right-sidebar-bg: rgb(247 248 249);
+    --right-sidebar-drag-bg: #337ac6;
+    --masonry-bg: white;
+    --masonry-scrollbar-bg: lightgrey;
+    --masonry-resizer-color: lightgrey;
+    --masonry-startWidth: 550px; /* DEFAULT: 550px; Use "unset" to prevent loading in grid like format */
+    --masonry-minWidth: 440px;
+    --masonry-maxWidth: 1200px;
+    --masonry-startHeight: 234px; /* DEFAULT: 243px; Use "unset" to prevent loading in grid like format */
+    --masonry-minHeight: 200px;
+    --masonry-border: 1px solid lightgrey;
+    --closed-bullet-color: 4px solid #CED9E0;
+    --code-color: crimson;
+    --block-widths: 800px; /* Roam native: 800px; Murf's favorite: 1500px; Full screen: 3400px; */
+
+} 
+
+
+
+.roam-body .roam-app .roam-sidebar-container {
+    background-color: var(--color-sidebars);
+    border-right: 1px dashed var(--color-gray);
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page, .roam-body .roam-app .roam-sidebar-container > * {
+   
+    box-shadow: none;
+  	color: var(--color-gray);
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: var(--color-accent-1);
+}
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page:hover, .roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .log-button:hover {
+    background: rgb(17,17,18);
+    color: var(--color-dark-op);
+    opacity: 100;
+}
+/*page title */
+h1.rm-title-display, .rm-title-textarea {
+	font-family: 'Arial Black' !important;
+	color: var(--color-accent-1) !important;
+  	font-weight: 700;
+  	font-size: 48px;
+}
+/* 块引用链接样式 - block reference */
+.rm-block-ref::before {
+    content: '🌍';
+    
+    display: inline-block;
+    width: 10px;
+    border-radius: 40px;
+    height: 10px;
+    margin-right: 10px;
+}
+/*左边栏字体大小*/
+.roam-body .roam-app .roam-sidebar-container .roam-sidebar-content .starred-pages-wrapper .starred-pages .page {
+  font-size:16px;
+}
+
+
+
+
+

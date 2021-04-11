@@ -1,0 +1,208 @@
+/* part one */
+ 
+/* 
+To add deeper indents:
+Add colors for " .rm-level-n > .rm-multibar " incrementally (n = indent level)
+*/
+
+/* Level 1 */
+.rm-level-1 > .rm-multibar, .rm-level-19 > .rm-multibar, .rm-level-37 > .rm-multibar, .rm-inline-references > .rm-multibar {
+    border-right-color: var(--indent1) !important;
+    
+}
+.rm-level-0 > div > .rm-block__self .rm-bullet__inner, .rm-level-18 > div > .rm-block__self .rm-bullet__inner, .rm-level-36 > div > .rm-block__self .rm-bullet__inner {
+    background-color: var(--indent1) !important;
+}
+
+/* Level 2 */
+.rm-level-2 > .rm-multibar, .rm-level-20 > .rm-multibar, .rm-level-38 > .rm-multibar {
+    border-right-color: var(--indent2) !important;
+    
+}
+.rm-level-1 > div > .rm-block__self .rm-bullet__inner, .rm-level-19 > div > .rm-block__self .rm-bullet__inner, .rm-level-37 > div > .rm-block__self .rm-bullet__inner {
+    background-color: var(--indent2) !important;
+}
+
+/* Level 3 */
+.rm-level-3 > .rm-multibar, .rm-level-21 > .rm-multibar, .rm-level-39 > .rm-multibar {
+    border-right-color: var(--indent3) !important;
+   
+}
+.rm-level-2 > div > .rm-block__self .rm-bullet__inner, .rm-level-20 > div > .rm-block__self .rm-bullet__inner, .rm-level-38 > div > .rm-block__self .rm-bullet__inner {
+    background-color: var(--indent3) !important;
+}
+
+/* Level 4 */
+.rm-level-4 > .rm-multibar, .rm-level-22 > .rm-multibar, .rm-level-40 > .rm-multibar {
+    border-right-color: var(--indent4) !important;
+    
+}
+.rm-level-3 > div > .rm-block__self .rm-bullet__inner, .rm-level-21 > div > .rm-block__self .rm-bullet__inner, .rm-level-39 > div > .rm-block__self .rm-bullet__inner {
+    background-color: var(--indent4) !important;
+}
+
+/* Level 5 */
+.rm-level-5 > .rm-multibar, .rm-level-23 > .rm-multibar, .rm-level-41 > .rm-multibar {
+    border-right-color: var(--indent5) !important;
+    
+}
+.rm-level-4 > div > .rm-block__self .rm-bullet__inner, .rm-level-22 > div > .rm-block__self .rm-bullet__inner, .rm-level-40 > div > .rm-block__self .rm-bullet__inner {
+    background-color: var(--indent5) !important;
+}
+
+/* Level 6 */
+.rm-level-6 > .rm-multibar, .rm-level-24 > .rm-multibar, .rm-level-42 > .rm-multibar {
+    border-right-color: var(--indent6) !important;
+  
+}
+.rm-level-5 > div > .rm-block__self .rm-bullet__inner, .rm-level-25 > div > .rm-block__self .rm-bullet__inner, .rm-level-41 > div > .rm-block__self .rm-bullet__inner {
+    background-color: var(--indent6) !important;
+}
+
+/* Level 7 */
+.rm-level-7 > .rm-multibar, .rm-level-25 > .rm-multibar, .rm-level-43 > .rm-multibar {
+    border-right-color: var(--indent7) !important;
+ 
+}
+.rm-level-6 > div > .rm-block__self .rm-bullet__inner, .rm-level-24 > div > .rm-block__self .rm-bullet__inner, .rm-level-42 > div > .rm-block__self .rm-bullet__inner {
+    background-color: var(--indent7) !important;
+}
+
+/* Level 8 */
+.rm-level-8 > .rm-multibar, .rm-level-26 > .rm-multibar, .rm-level-44 > .rm-multibar {
+    border-right-color: var(--indent8) !important;
+   
+}
+.rm-level-7 > div > .rm-block__self .rm-bullet__inner, .rm-level-25 > div > .rm-block__self .rm-bullet__inner, .rm-level-43 > div > .rm-block__self .rm-bullet__inner {
+    background-color: var(--indent8) !important;
+}
+
+/* Level 9 */
+.rm-level-9 > .rm-multibar, .rm-level-27 > .rm-multibar, .rm-level-45 > .rm-multibar {
+    border-right-color: var(--indent9) !important;
+    
+}
+.rm-level-8 > div > .rm-block__self .rm-bullet__inner, .rm-level-26 > div > .rm-block__self .rm-bullet__inner, .rm-level-44 > div > .rm-block__self .rm-bullet__inner {
+    background-color: var(--indent9) !important;
+}
+
+/* Level 10 */
+.rm-level-10 > .rm-multibar, .rm-level-28 > .rm-multibar, .rm-level-46 > .rm-multibar {
+    border-right-color: var(--indent10) !important;
+   
+}
+.rm-level-9 > div > .rm-block__self .rm-bullet__inner, .rm-level-27 > div > .rm-block__self .rm-bullet__inner, .rm-level-45 > div > .rm-block__self .rm-bullet__inner {
+    background-color: var(--indent10) !important;
+}
+
+/* Level 11 */
+.rm-level-11 > .rm-multibar, .rm-level-29 > .rm-multibar, .rm-level-47 > .rm-multibar {
+    border-right-color: var(--indent11) !important;
+   
+}
+.rm-level-10 > div > .rm-block__self .rm-bullet__inner, .rm-level-28 > div > .rm-block__self .rm-bullet__inner, .rm-level-46 > div > .rm-block__self .rm-bullet__inner {
+    background-color: var(--indent11) !important;
+}
+
+/* Level 12 */
+.rm-level-12 > .rm-multibar, .rm-level-30 > .rm-multibar, .rm-level-48 > .rm-multibar {
+    border-right-color: var(--indent12) !important;
+    
+}
+.rm-level-11 > div > .rm-block__self .rm-bullet__inner, .rm-level-29 > div > .rm-block__self .rm-bullet__inner, .rm-level-47 > div > .rm-block__self .rm-bullet__inner {
+    background-color: var(--indent12) !important;
+}
+
+/* Level 13 */
+.rm-level-13 > .rm-multibar, .rm-level-31 > .rm-multibar, .rm-level-49 > .rm-multibar {
+    border-right-color: var(--indent13) !important;
+    
+}
+.rm-level-12 > div > .rm-block__self .rm-bullet__inner, .rm-level-30 > div > .rm-block__self .rm-bullet__inner, .rm-level-48 > div > .rm-block__self .rm-bullet__inner {
+    background-color: var(--indent13) !important;
+}
+
+/* Level 14 */
+.rm-level-14 > .rm-multibar, .rm-level-32 > .rm-multibar, .rm-level-50 > .rm-multibar {
+    border-right-color: var(--indent14) !important;
+   
+}
+.rm-level-13 > div > .rm-block__self .rm-bullet__inner, .rm-level-31 > div > .rm-block__self .rm-bullet__inner, .rm-level-49 > div > .rm-block__self .rm-bullet__inner {
+    background-color: var(--indent14) !important;
+}
+
+/* Level 15 */
+.rm-level-15 > .rm-multibar, .rm-level-33 > .rm-multibar, .rm-level-51 > .rm-multibar {
+    border-right-color: var(--indent15) !important;
+    
+}
+.rm-level-14 > div > .rm-block__self .rm-bullet__inner, .rm-level-32 > div > .rm-block__self .rm-bullet__inner, .rm-level-50 > div > .rm-block__self .rm-bullet__inner {
+    background-color: var(--indent15) !important;
+}
+
+/* Level 16 */
+.rm-level-16 > .rm-multibar, .rm-level-34 > .rm-multibar, .rm-level-52 > .rm-multibar {
+    border-right-color: var(--indent16) !important;
+    
+}
+.rm-level-15 > div > .rm-block__self .rm-bullet__inner, .rm-level-33 > div > .rm-block__self .rm-bullet__inner, .rm-level-51 > div > .rm-block__self .rm-bullet__inner {
+    background-color: var(--indent16) !important;
+}
+
+
+/* Level 17 */
+.rm-level-17 > .rm-multibar, .rm-level-35 > .rm-multibar, .rm-level-53 > .rm-multibar {
+    border-right-color: var(--indent17) !important;
+   
+}
+.rm-level-16 > div > .rm-block__self .rm-bullet__inner, .rm-level-34 > div > .rm-block__self .rm-bullet__inner, .rm-level-52 > div > .rm-block__self .rm-bullet__inner {
+    background-color: var(--indent17) !important;
+}
+
+
+/* Level 18 */
+.rm-level-18 > .rm-multibar, .rm-level-36 > .rm-multibar, .rm-level-54 > .rm-multibar {
+    border-right-color: var(--indent18) !important;
+   
+}
+.rm-level-17 > div > .rm-block__self .rm-bullet__inner, .rm-level-35 > div > .rm-block__self .rm-bullet__inner, .rm-level-53 > div > .rm-block__self .rm-bullet__inner {
+    background-color: var(--indent18) !important;
+}
+
+/* part two */
+
+/* Rainbow indentation */
+/* 
+Feel free to adjust the color variables!
+This one has 18 colors deep (3 cycles of 3 rainbow flavored palettes).
+This loops 3 times so it goes 54 levels deep!
+To add more levels just target
+.rm-level-n > div for every nth level
+*/
+
+
+:root {
+    --box-shadow-values: 25px 0px 20px -30px; /* Set to "none" to remove shadow */
+    --indent1: #F44336AD;
+    --indent2: #00BCD4AD;
+    --indent3: #48864DAD;
+    --indent4: #FFC107AD;
+    --indent5: #DE299AAD;
+    --indent6: #1232E6AD;
+    --indent7: #B23ED6AD;
+    --indent8: #898FF2AD;
+    --indent9: #395C45AD;
+    --indent10: #7C7948AD;
+    --indent11: #7D5039AD;
+    --indent12: #A5494FAD;
+    --indent13: #706597AD;
+    --indent14: #657D91AD;
+    --indent15: #6D8D76AD;
+    --indent16: #A09A84AD;
+    --indent17: #987174AD;
+    --indent18: #8B5F78AD;
+}
+
+.rm-multibar {
+  z-index:4;
+}
